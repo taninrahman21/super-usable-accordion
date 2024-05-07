@@ -1,0 +1,142 @@
+# Copyright (C) 2024 bPlugins LLC
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Usable Accordion 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simple-usable-accordion\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-06T06:54:58+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: simple-usable-accordion\n"
+
+#. Plugin Name of the plugin
+#: D:\xampp\htdocs\tanin-rahman\wp-content\plugins\simple-usable-accordion\simple-usable-accordion.php
+msgid "Simple Usable Accordion"
+msgstr ""
+
+#. Description of the plugin
+#: D:\xampp\htdocs\tanin-rahman\wp-content\plugins\simple-usable-accordion\simple-usable-accordion.php
+msgid "Description of the Hello Block."
+msgstr ""
+
+#. Author of the plugin
+#: D:\xampp\htdocs\tanin-rahman\wp-content\plugins\simple-usable-accordion\simple-usable-accordion.php
+msgid "bPlugins LLC"
+msgstr ""
+
+#. Author URI of the plugin
+#: D:\xampp\htdocs\tanin-rahman\wp-content\plugins\simple-usable-accordion\simple-usable-accordion.php
+msgid "http://bplugins.com"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:2115
+msgid "Accordion Items"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:2124
+msgid "Select Title Tag"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:2146
+msgid "Title"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:2160
+msgid "Content"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:2183
+msgid "Delete Item"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:2207
+msgid "Add New Item"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:2391
+msgid "Icon"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:11670
+#: dist/editor.js:11805
+msgid "Border Radius"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:11728
+#: dist/editor.js:11854
+msgid "Typography"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:11742
+msgid "Content Padding"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:11790
+msgid "Padding"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:11816
+msgid "Width"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:11883
+msgid "Icon Size"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block title"
+msgid "Simple Usable Accordion"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block description"
+msgid "A Simple Usable Gutenberg Block where you can implement a very smart accordion."
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "hello"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "block"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "gutenberg"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "accordion"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "faq"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "simple accordion"
+msgstr ""

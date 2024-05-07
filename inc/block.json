@@ -1,0 +1,143 @@
+{
+  "apiVersion": "1",
+  "name": "sua/simple-usable-accordion",
+  "title": "Simple Usable Accordion",
+  "description": "A Simple Usable Gutenberg Block where you can implement a very smart accordion.",
+  "category": "widgets",
+  "keywords": [
+    "hello",
+    "block",
+    "gutenberg",
+    "accordion",
+    "faq",
+    "simple accordion"
+  ],
+  "textdomain": "simple-usable-accordion",
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": ""
+    },
+    "cId": {
+      "type": "string",
+      "default": ""
+    },
+    "content": {
+      "type": "string",
+      "default": "Lorem text should be replaced with real text"
+    },
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "title": "Accordion #1",
+          "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi doloremque assumenda magni similique fugiat animi quod. Ipsam sed dolores repellendus."
+        },
+        {
+          "title": "Accordion #2",
+          "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi doloremque assumenda magni similique fugiat animi quod. Ipsam sed dolores repellendus."
+        }
+      ]
+    },
+    "collapseIcon": {
+      "type": "object",
+      "default": {
+        "closeIcon": "BiPlus",
+        "openIcon": "AiOutlineMinus",
+        "position": "right",
+        "size": ""
+      }
+    },
+    "layout": {
+      "type": "object",
+      "default": {
+        "width": "fit-content",
+        "backgroundColor": "#ffffff",
+        "borderRadius": "5",
+        "border": {
+          "width": "2px",
+          "style": "solid",
+          "color": "#72AEE6"
+        },
+        "margin": {
+          "top": "10px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "padding": {
+          "top": "20px",
+          "right": "20px",
+          "bottom": "20px",
+          "left": "20px"
+        }
+      }
+    },
+    "itemStyles": {
+      "type": "object",
+      "default": {
+        "borderRadius": "8",
+        "border": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "1px",
+          "left": "0px"
+        },
+        "borderColor": "gray",
+        "margin": {
+          "top": "10px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "title": {
+          "color": "#ddd9d9",
+          "background": {
+            "color": "linear-gradient(135deg, #4527a4, #8344c5)"
+          },
+          "padding": {
+            "top": "13px",
+            "right": "13px",
+            "bottom": "13px",
+            "left": "13px"
+          },
+          "tagName": "h4",
+          "typo": { "fontSize": 23 }
+        },
+        "icon": {
+          "color": "#ddd9d9",
+          "size": "25"
+        },
+        "content": {
+          "colors": {
+            "color": "#edecec",
+            "bg": "linear-gradient(135deg, #4527a4, #8344c5)"
+          },
+          "padding": {
+            "top": "15px",
+            "right": "15px",
+            "bottom": "15px",
+            "left": "15px"
+          },
+          "typo": { "fontSize": 16 }
+        }
+      }
+    }
+  },
+
+  "supports": {
+    "align": ["wide", "full"],
+    "html": false
+  },
+  "example": {
+    "attributes": {
+      "preview": true,
+      "columns": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      }
+    }
+  },
+  "editorScript": "file:./../dist/editor.js"
+}
